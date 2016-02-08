@@ -1,0 +1,10 @@
+- name: 首页
+  path: index.html
+  section_id: home
+
+- name: 关于
+  path: about.html
+  section_id: about
+  
+- name: 开始体验
+  path: //ionicframework.online/

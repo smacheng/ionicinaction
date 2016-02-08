@@ -1,0 +1,24 @@
+---
+layout: blog
+section_id: blog
+---
+
+<div class="post">
+  <div class="timestamp left text-center">
+    <span class="month">{{ page.date | date: "%h" }}</span>
+    <span class="date">{{ page.date | date: "%d" }}</span>
+  </div>
+  <div class="info">
+    <h3>{{ page.title }}</h3>
+    <p>Cordova CLI：{{page.cordova}}，Ionic Version：{{page.ionic}}，Ionic CLI Version：{{page.cli}}，Ionic App Lib Version：{{page.lib}}，Node Version：{{page.node}}</p>
+    <!--<wb:like id="like" type="number" ></wb:like>-->
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</div>
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<!--<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1980181"></script>-->
+<!-- UY END -->
